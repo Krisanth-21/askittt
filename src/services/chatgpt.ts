@@ -23,7 +23,7 @@ class ChatGPTService {
   private baseURL = 'https://api.openai.com/v1';
 
   constructor() {
-    this.apiKey = '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';
+    this.apiKey = import.meta.env.VITE_OPENAI_API_KEY || '';
     console.log('🤖 ChatGPT 4o-mini API Key loaded:', this.apiKey ? 'Yes' : 'No');
     console.log('🔑 API Key length:', this.apiKey.length);
     console.log('🔑 API Key prefix:', this.apiKey.substring(0, 20) + '...');
