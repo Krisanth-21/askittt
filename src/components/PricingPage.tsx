@@ -31,7 +31,7 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Product Manager",
     company: "TechFlow Inc",
-    content: "Bapto AI has revolutionized how our team handles complex workflows. The step-by-step guidance is incredibly accurate.",
+    content: "Ask IT AI has revolutionized how our team handles complex workflows. The step-by-step guidance is incredibly accurate.",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah&backgroundColor=transparent"
   },
   {
@@ -45,7 +45,7 @@ const testimonials = [
     name: "Emily Watson",
     role: "Operations Director",
     company: "StartupHub",
-    content: "Team collaboration features have streamlined our onboarding process. New employees get up to speed 3x faster with Bapto AI guidance.",
+    content: "Team collaboration features have streamlined our onboarding process. New employees get up to speed 3x faster with Ask IT AI guidance.",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emily&backgroundColor=transparent"
   }
 ];
@@ -61,20 +61,20 @@ const companyLogos = [
 
 const faqs = [
   {
-    question: "How does Bapto AI's screen analysis work?",
-    answer: "Bapto AI uses ChatGPT 4o-mini's advanced multimodal AI to analyze your screen in real-time. It combines computer vision, OCR text extraction, and UI element detection to understand exactly what's on your screen and provide contextual guidance."
+    question: "How does Ask IT AI's screen analysis work?",
+    answer: "Ask IT AI uses ChatGPT 4o-mini's advanced multimodal AI to analyze your screen in real-time. It combines computer vision, OCR text extraction, and UI element detection to understand exactly what's on your screen and provide contextual guidance."
   },
   {
     question: "Is my screen data secure and private?",
     answer: "Absolutely. Your screen data is processed securely through OpenAI's ChatGPT API and is never stored permanently. All analysis happens in real-time, and we follow strict privacy protocols to protect your information."
   },
   {
-    question: "Can I use Bapto AI with any application?",
-    answer: "Yes! Bapto AI works with any application or website visible on your screen. Whether you're using design software, productivity tools, web applications, or system interfaces, Bapto AI can provide intelligent guidance."
+    question: "Can I use Ask IT AI with any application?",
+    answer: "Yes! Ask IT AI works with any application or website visible on your screen. Whether you're using design software, productivity tools, web applications, or system interfaces, Ask IT AI can provide intelligent guidance."
   },
   {
     question: "What's included in the free plan?",
-    answer: "The free plan includes 10 screen analysis sessions per month, basic text-to-speech voice output, and access to core AI guidance features. It's perfect for trying out Bapto AI and light usage."
+    answer: "The free plan includes 10 screen analysis sessions per month, basic text-to-speech voice output, and access to core AI guidance features. It's perfect for trying out Ask IT AI and light usage."
   },
   {
     question: "How does team collaboration work?",
@@ -96,7 +96,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onGetStarted, onContac
       name: "Free Plan",
       subtitle: "Starter",
       price: { monthly: 0, annual: 0 },
-      description: "Perfect for trying out Bapto AI's capabilities",
+      description: "Perfect for trying out Ask IT AI's capabilities",
       features: [
         "10 screen analysis sessions/month",
         "Basic TTS voice output",
@@ -194,11 +194,11 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onGetStarted, onContac
           <div className="flex items-center justify-center gap-3 mb-6 animate-slide-in-up">
             <img 
               src="/Untitled design (7).png" 
-              alt="Bapto AI Logo"
+              alt="Ask IT AI Logo"
               className="w-16 h-16 rounded-2xl shadow-lg"
             />
             <div className="flex items-center gap-2">
-              <h1 className="text-4xl font-bold text-white">Bapto AI</h1>
+              <h1 className="text-4xl font-bold text-white">Ask IT AI</h1>
               <div className="flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-purple-600/20 to-pink-600/20 border border-purple-500/30 rounded-full">
                 <Sparkles className="w-4 h-4 text-purple-400" />
                 <span className="text-sm text-purple-300 font-medium">ChatGPT 4o-mini</span>
@@ -365,7 +365,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onGetStarted, onContac
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">What Our Users Say</h2>
-          <p className="text-xl text-gray-400">Join thousands of professionals already using Bapto AI</p>
+          <p className="text-xl text-gray-400">Join thousands of professionals already using Ask IT AI</p>
         </div>
 
         <div className="relative">
@@ -436,7 +436,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onGetStarted, onContac
       <div className="max-w-4xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
-          <p className="text-xl text-gray-400">Everything you need to know about Bapto AI</p>
+          <p className="text-xl text-gray-400">Everything you need to know about Ask IT AI</p>
         </div>
 
         <div className="space-y-4">
@@ -468,7 +468,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onGetStarted, onContac
           <div className="relative">
             <h2 className="text-4xl font-bold text-white mb-4">Ready to Transform Your Workflow?</h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of professionals using Bapto AI to work smarter, faster, and more efficiently with AI-powered guidance.
+              Join thousands of professionals using Ask IT AI to work smarter, faster, and more efficiently with AI-powered guidance.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

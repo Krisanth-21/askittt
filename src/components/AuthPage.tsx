@@ -110,12 +110,12 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSignIn, onSignUp, isLoadin
             <div className="relative animate-logo-glow">
               <img 
                 src="/Untitled design (7).png" 
-                alt="Bapto AI Logo"
+                alt="Ask IT AI Logo"
                 className="w-20 h-20 object-contain animate-pulse-subtle rounded-2xl shadow-lg"
               />
             </div>
             <div>
-              <h1 className="text-3xl font-bold text-white animate-text-glow">Bapto AI</h1>
+              <h1 className="text-3xl font-bold text-white animate-text-glow">Ask IT AI</h1>
               <p className="text-gray-400 animate-fade-in-delayed">Powered by ChatGPT 4o-mini</p>
             </div>
           </div>
@@ -161,7 +161,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSignIn, onSignUp, isLoadin
                 {isSignUp ? 'Create Account' : 'Welcome Back'}
               </h3>
               <p className="text-gray-400">
-                {isSignUp ? 'Join thousands of users already using Bapto AI' : 'Sign in to continue to your AI assistant'}
+                {isSignUp ? 'Join thousands of users already using Ask IT AI' : 'Sign in to continue to your AI assistant'}
               </p>
             </div>
 

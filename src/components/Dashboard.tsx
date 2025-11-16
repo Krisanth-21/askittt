@@ -419,13 +419,13 @@ export const Dashboard: React.FC<DashboardProps> = ({ user, onSignOut }) => {
             <div className="relative animate-logo-glow">
               <img 
                 src="/Untitled design (7).png" 
-                alt="Bapto AI Logo"
+                alt="Ask IT AI Logo"
                 className="w-12 h-12 object-contain rounded-xl shadow-lg"
               />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h1 className="text-xl font-bold text-white animate-text-glow">Bapto AI</h1>
+                <h1 className="text-xl font-bold text-white animate-text-glow">Ask IT AI</h1>
                 <div className="flex items-center gap-1 px-2 py-1 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 border border-blue-500/30 rounded-full">
                   <Sparkles className="w-3 h-3 text-blue-400" />
                   <span className="text-xs text-blue-300 font-medium">ChatGPT 4o-mini</span>

@@ -27,7 +27,7 @@ export const GettingStarted: React.FC<GettingStartedProps> = ({ user, onComplete
   const steps = [
     {
       id: 0,
-      title: 'Welcome to Bapto AI',
+      title: 'Welcome to Ask IT AI',
       description: 'Your intelligent companion powered by ChatGPT 4o-mini',
       icon: Sparkles,
       content: (
@@ -36,13 +36,13 @@ export const GettingStarted: React.FC<GettingStartedProps> = ({ user, onComplete
             <div className="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 animate-logo-glow border border-white/20">
               <img 
                 src="/Untitled design (7).png" 
-                alt="Bapto AI Logo"
+                alt="Ask IT AI Logo"
                 className="w-16 h-16 rounded-xl shadow-lg border-2 border-white/20"
               />
             </div>
             <h3 className="text-2xl font-bold text-white mb-2 animate-text-glow">Welcome, {user.name}!</h3>
             <p className="text-gray-400">
-              Let's get you set up with your Bapto AI assistant powered by ChatGPT 4o-mini. This quick tour will show you 
+              Let's get you set up with your Ask IT AI assistant powered by ChatGPT 4o-mini. This quick tour will show you 
               how to make the most of your intelligent screen companion with advanced multimodal AI.
             </p>
           </div>
